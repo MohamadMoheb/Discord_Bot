@@ -1,0 +1,22 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "Discord Music Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamadMoheb/Discord_Bot.git"
+  },
+  "author": "Mohamad Moheb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamadMoheb/Discord_Bot/issues"
+  },
+  "homepage": "https://github.com/MohamadMoheb/Discord_Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
