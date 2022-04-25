@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/MohamadMoheb/Discord_Bot#readme",
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.9.0",
+    "discord.js": "^13.6.0",
+    "ffmpeg-static": "^5.0.0",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.0"
   }
 }
