@@ -33,7 +33,7 @@ module.exports = {
                 message.channel.send('leaving channel');
             });
 
-            await message.reply(`:thumbsup: Now Playing ***Your Link!***`)
+            await message.channel.send(`***${video.title}*** has been added to Mazzika's Queue`)
 
             return
         }
@@ -56,9 +56,13 @@ module.exports = {
                 voiceChannel.leave();
             });
 
-            await message.reply(`:thumbsup: Now Playing ***${video.title}***`)
+            await message.channel.send(`**${video.title}** has been added to Mazzika's Queue`)
         } else {
             message.channel.send('No video results found');
         }
     }
 }
+
+//*x*           italic
+//**xx**        bold
+//***xx***      italic & bold
