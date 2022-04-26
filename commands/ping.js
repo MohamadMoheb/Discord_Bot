@@ -1,7 +1,7 @@
 module.exports = {
     name: 'ping',
-    description: 'ping command',
+    description: 'Shows latency',
     execute(message, args){
-        message.channel.send('this functionality isnt implemented yet, code running from seperate .js file!');
+        message.channel.send(`Latency = ${Date.now() - message.createdTimestamp}ms!`);
     }
 }
