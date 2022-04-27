@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
+const fs = require('fs');
 
 const token = require("./config.json").token 
-
-const prefix = '%';
-const fs = require('fs');
+const prefix = require("./config.json").prefix
 
 client.commands = new Discord.Collection();
 
